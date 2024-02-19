@@ -1,0 +1,11 @@
+torch
+diffusers
+transformers
+torchvision
+tensorflow
+gradio
+opencv-python 
+pycocotools
+matplotlib 
+onnxruntime
+onnx
