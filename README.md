@@ -1,21 +1,7 @@
 # Capstone-2024
-Stable Diffusion Inpainting
+ We developed a text-to-image pipeline for AI-generated synthetic images using Fastai and Stable Diffusion. Upon prompting, the model generates synthetic images with the choice of augmentation.
+  We built a GAN using a UNet learner with the backbone of resnet-34 which resulted accuracy of 94%. The resultant images were used to train the discriminator. This was a Capstone Project for the Final Year of Engineering. 
+  We deployed it on AWS using Streamlit.
 
-
-<h2> Installation</h2>
-
-
-```
-pip install -r requirements.txt 
-pip install git+https://github.com/facebookresearch/segment-anything.git
-```
-
-
-<h3>Dowloading Weights</h3>
-
-```
-wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
-```
-
-Replace Location of weights file in line 11
+  Read the whole paper here : <a href="https://drive.google.com/file/d/18zMBH8zKUVp7n7GfR98XbBbE1lUz_DF3/view">Paper </a>
 
